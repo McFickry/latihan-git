@@ -1,0 +1,126 @@
+/*############################ Default ############################*/
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+}
+
+.container{
+	width: 100%;
+	margin: auto;
+}
+
+.row{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.row::after{
+	display: table;
+	clear: both;
+}
+
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 24.99%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 74.99%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+/*########################### Navbar ###########################*/
+nav{
+	width: 100%;
+	margin: 0;
+}
+
+nav ul{
+	background-color: darkorange;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+ul.topnav li{
+	list-style: none;
+	float: left;
+}
+
+
+ul.topnav li.navbar-right {
+	float: right;
+}
+
+ul.topnav li a {
+	display: block;
+	text-decoration: none;
+	min-height: 16px;
+	text-align: center;
+	padding: 14px;
+	color: black;
+}
+
+ul.topnav li.logo a {
+	padding: 5px;
+	color: black;
+	font-size: 30px;
+	font-family: sans-serif;
+}
+
+ul.topnav li.navbar-right a:hover{
+	background-color: darkred;
+	color: white;
+}
+/*################################### Content ###################################*/
+.left-sidebar{
+	background-color: orangered;
+	height: 250px;
+}
+
+.item img{
+	height: 250px;
+	max-width: 700px;
+	margin: auto;
+}
+
+#section-1-gradient{
+	background: orangered;
+	background-image: linear-gradient(white, orangered);
+}
+
+h1.tagline{
+	margin: auto;
+	margin-top: 100px;
+	height: 120px;
+	font-size: 70px;
+}
+
+#section-2-gradient{
+	background: White;
+	background-image: linear-gradient(orangered, white);
+}
+
+div.box{
+	text-align: center;
+	margin: 24px;
+	padding: 36px 24px 40px;
+	border-radius: 7px;
+	background-color: #fff;
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.15), 0 2px 3px 0 rgba(0,0,0,0.1);
+}
+
+.footer{
+	background-color: gainsboro;
+}
+
+span.year{
+	color: red;
+}
